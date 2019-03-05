@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-// import './App.css';
+import styles from './styles/App';
+import Panel from './Panel';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <p>first-app</p>
+      <div style = {styles.container}>
+        <Panel />
       </div>
     );
   }

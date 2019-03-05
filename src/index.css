@@ -1,3 +1,24 @@
+::-webkit-input-placeholder {
+  color: #BBCDC5;
+}
+:-moz-placeholder {/* Firefox 18- */
+  color: #BBCDC5;
+}
+::-moz-placeholder{/* Firefox 19+ */
+ color: #BBCDC5;
+}
+:-ms-input-placeholder {
+  color: #BBCDC5;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
