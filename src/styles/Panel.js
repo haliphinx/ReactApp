@@ -18,9 +18,39 @@ const styles = {
     },
     header: {
         fontSize: 50,
-        color: "#ff4c38",
+        color: "#5693a0",
         transition:"opacity 1.5s",
         fontFamily: 'RussoOne',
+    },
+    footer: {
+        // self styles
+        height: 118,
+        backgroundColor: '#deebed',
+        alignSelf: 'stretch',
+        marginRight:5,
+        marginLeft:5,
+        marginBottom:5,
+        borderRadius: 10,
+        borderStyle: 'dashed',
+        borderColor: "#5693a0",
+        borderWidth:0.5,
+        // children styles
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    footer_text: {
+        fontSize: 25,
+        color: "#5693a0",
+    },
+    footer_link: {
+        fontSize: 25,
+        color: "#5693a0",
+        marginLeft: 10,
+    },
+    placeholder: {
+        flex: 1,
     },
 }
 
